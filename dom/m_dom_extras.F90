@@ -29,7 +29,7 @@ module m_dom_extras
      module procedure extractDataContentRealSpArr
      module procedure extractDataContentRealSpMat
      module procedure extractDataContentIntSca
-     module procedure extractDataContentLongIntSca
+     module procedure extractDataContentLongSca
      module procedure extractDataContentIntArr
      module procedure extractDataContentIntMat
      module procedure extractDataContentLgSca
@@ -55,7 +55,7 @@ module m_dom_extras
      module procedure extractDataAttributeRealSpArr
      module procedure extractDataAttributeRealSpMat
      module procedure extractDataAttributeIntSca
-     module procedure extractDataAttributeLongIntSca
+     module procedure extractDataAttributeLongSca
      module procedure extractDataAttributeIntArr
      module procedure extractDataAttributeIntMat
      module procedure extractDataAttributeLgSca
