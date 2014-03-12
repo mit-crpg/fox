@@ -115,7 +115,6 @@ module m_dom_dom
   end type ListNode 
 
   type NodeList
-    private
     character, pointer :: nodeName(:) => null() ! What was getByTagName run on?
     character, pointer :: localName(:) => null() ! What was getByTagNameNS run on?
     character, pointer :: namespaceURI(:) => null() ! What was getByTagNameNS run on?
@@ -125,7 +124,6 @@ module m_dom_dom
   end type NodeList
 
   type NodeListptr
-    private
     type(NodeList), pointer :: this
   end type NodeListptr
 
@@ -178,7 +176,6 @@ module m_dom_dom
   end type docTypeExtras
 
   type Node
-    private
     logical :: readonly = .false.
     character, pointer, dimension(:)         :: nodeName => null()
     character, pointer, dimension(:)         :: nodeValue => null()
