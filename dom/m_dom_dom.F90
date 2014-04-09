@@ -226,6 +226,7 @@ module m_dom_dom
 
   public :: ListNode
   public :: NodeList
+  public :: NodeListPtr
   public :: NamedNodeMap
 
   public :: destroy
